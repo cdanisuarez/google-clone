@@ -26,6 +26,7 @@ header nav .nav-right-section {
   display: flex;
   list-style: none;
   justify-content: center;
+  align-items: center;
 }
 
 header nav .nav-right-section a {
@@ -34,10 +35,56 @@ header nav .nav-right-section a {
 }
 
 nav .nav-right-section .menu-icon {
-  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-image: url('/assets/menu-icon.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   width: 25px;
   height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  height: 92px;
+  width: 272px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
